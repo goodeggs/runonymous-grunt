@@ -1,0 +1,25 @@
+{
+  "name": "runonymous-grunt",
+  "version": "0.0.0",
+  "description": "Queue an anonymous function with grunt.task.run",
+  "main": "runonymous.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goodeggs/runonymous-grunt.git"
+  },
+  "keywords": [
+    "grunt",
+    "plugin",
+    "run",
+    "anonymous",
+    "function"
+  ],
+  "author": "Adam Hull <adam@hmlad.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goodeggs/runonymous-grunt/issues"
+  }
+}
