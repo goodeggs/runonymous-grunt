@@ -1,6 +1,6 @@
 {
   "name": "runonymous-grunt",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Queue an anonymous function with grunt.task.run",
   "main": "runonymous.js",
   "scripts": {
