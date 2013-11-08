@@ -43,3 +43,19 @@ grunt.registerTask('spec:shared', function() {
     'jasmine:server',
 });
 ```
+
+It's even cleaner in coffeescript:
+
+```coffee
+require('runonymous-grunt')(grunt)
+grunt.loadNpmTasks('grunt-contrib-jasmine')
+
+grunt.registerTask 'spec:shared, ->
+  grunt.task.run(
+    -> grunt.log.writeln('Testing shared code in the browser')
+    'jasmine:client'
+
+    -> grunt.log.writeln('Testing shared code on the server')
+    'jasmine:server'
+  )
+```
