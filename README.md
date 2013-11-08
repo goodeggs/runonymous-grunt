@@ -50,7 +50,7 @@ It's even cleaner in coffeescript:
 require('runonymous-grunt')(grunt)
 grunt.loadNpmTasks('grunt-contrib-jasmine')
 
-grunt.registerTask 'spec:shared, ->
+grunt.registerTask 'spec:shared', ->
   grunt.task.run(
     -> grunt.log.writeln('Testing shared code in the browser')
     'jasmine:client'
